@@ -27,7 +27,7 @@ public class IOLector
         {
         	while(scan.hasNextLine()) 
             {
-            	String line = scan.nextLine();
+            	String line = scan.nextLine().strip();
             	Boolean condition = line.contains("/*") || line.contains("//") || line.contains("*/") || line.equals("");
             	if(condition)
             	{
