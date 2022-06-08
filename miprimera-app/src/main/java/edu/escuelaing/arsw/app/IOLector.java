@@ -3,11 +3,15 @@ import java.io.File;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Class that reads a File and count the physical lines or the Lines of code of a File
  *
  */
 public class IOLector 
 {
+	/**
+	 * Principal method that reads the File and evaluate the number of physical or code lines
+	 * @param args - the list with the type of lecture and the path of the file
+	 * */
     public static void main( String[] args ) throws Exception
     {
     	System.out.println( args[1] );
