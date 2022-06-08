@@ -10,7 +10,7 @@ Este repositorio contiene un programa en Java que permite contar lineas fisicas 
 
 Teniendo en cuenta que para la realización de este taller se hicieron 45 lineas de codigo y se trabajo en 3 horas el resultado es
 
-**15 LOC/H **
+**15 LOC/H**
 
 ## Como Usar
 
