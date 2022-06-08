@@ -10,12 +10,16 @@ public class IOLector
 {
     public static void main( String[] args ) throws Exception
     {
-        File file = new File(args[0]);
-        Scanner scanner = new Scanner(file);
+    	System.out.println( args[0] );
+    	String path = args[0];
+    	path.replace( "\","\\");
+        File file = new File( path );
+        Scanner scan = new Scanner(file);
 
         int length = 0;
-        while(scanner.hasNextLine()) 
+        while(scan.hasNextLine()) 
         {
+        	scan.nextLine();
         	length++;
         }
         System.out.println( length );
